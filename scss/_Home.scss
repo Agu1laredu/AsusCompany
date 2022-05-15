@@ -1,5 +1,4 @@
 
-
   
 * {
     font-family: 'Bebas Neue', cursive;
@@ -70,33 +69,20 @@ h5{
 
 .publicidad{
     margin-top: 10%;
-    box-sizing: border-box;
-    display: grid;
-  grid-template-columns: repeat(4);
-  grid-template-rows: repeat(2, 300px);
-  gap: 10px;
-  grid-template-areas:
-  ". video  .  texto "
-}
-
-
-
-
-.publicidad{
-    margin-bottom: 5%;
-    background-color: black;
-    grid-area: texto;
-    border: 2px solid black;
-    height: 318px;
-    div{
-        width: 400px;
-        margin-left: 50%;
+    .card{
+        background-color: black;
         color: white;
     }
-    .iframe{
-        grid-area: video;
+}
+
+@media (max-width: 800px){
+    iframe{
+        width: 380px;
     }
 }
+
+
+
 
 
 
@@ -141,5 +127,18 @@ footer{
        margin-left: -5%;
    }
   
+}
+
+@media (max-width: 800px) {
+    footer{
+       
+     
+      h3{
+        margin-left: -5%;
+      }
+      .C{
+          margin-left: -5%;
+      }
+    }
 }
   
