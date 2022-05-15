@@ -14,28 +14,16 @@
   
 
 
-.carousel{
-    margin-top: 5%;
+#logo{
+    height: 80px;
+    margin-left: 20%;
 }
 
-footer{
-    width: 100%;
-    background-image: url(/Imagenes/footer.jpg);
-    background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-    color: white;
 
-    
-   #contac {
-       margin-left: -5%;
-   }
-  
-}
 
 .carousel-item{
     margin-left: 25%;
+    margin-top: 8%;
     width: 700px;
 }
 
@@ -51,9 +39,9 @@ h2{
 h5{
     margin-bottom: 10%;
     text-align: center;
-    span{
-        color: rgb(30, 243, 30)
-           font-size: 40px;
+    span {
+         color: rgb(30, 243, 30);
+        font-size:40px;
     }
 }
 
@@ -79,4 +67,20 @@ h5{
 
 
 
+
+footer{
+    width: 100%;
+    background-image: url(/Imagenes/footer.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+    color: white;
+
+    
+   #contac {
+       margin-left: -5%;
+   }
+  
+}
   
