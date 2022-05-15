@@ -45,18 +45,17 @@ h5{
     }
 }
 
+.col{
+    margin-top: 10%;
 
 .card{
-    margin-top: 4%;
+    
     margin-left: 28%;
     width: 50%;
-    height: 70%;
+    height: 100%;
     border-bottom: none;
     cursor: pointer;
-    &:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
-    transform: translateY(-3%);
-  }
+    
   button{
       margin-left: 40%;
   }
@@ -64,11 +63,13 @@ h5{
       color: rgb(30, 243, 30);
   }
 }
+}
 
 
 
 
 .publicidad{
+    margin-top: 10%;
     box-sizing: border-box;
     display: grid;
   grid-template-columns: repeat(4);

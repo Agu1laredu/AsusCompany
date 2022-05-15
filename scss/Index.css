@@ -37,31 +37,28 @@ h5 span {
   font-size: 40px;
 }
 
-.card {
-  margin-top: 4%;
+.col {
+  margin-top: 10%;
+}
+
+.col .card {
   margin-left: 28%;
   width: 50%;
-  height: 70%;
+  height: 100%;
   border-bottom: none;
   cursor: pointer;
 }
 
-.card:hover {
-  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
-  -webkit-transform: translateY(-3%);
-          transform: translateY(-3%);
-}
-
-.card button {
+.col .card button {
   margin-left: 40%;
 }
 
-.card span {
+.col .card span {
   color: #1ef31e;
 }
 
 .publicidad {
+  margin-top: 10%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -ms-grid;
