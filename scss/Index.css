@@ -2,6 +2,10 @@
   font-family: 'Bebas Neue', cursive;
 }
 
+.carousel {
+  margin-top: 5%;
+}
+
 footer {
   background-color: black;
   color: white;
