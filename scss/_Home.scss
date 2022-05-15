@@ -1,0 +1,25 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+// PRODUCTOS
+
+.card{
+    margin: 4%;
+    cursor: pointer;
+    &:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-3%);
+  }
+  button{
+      margin-left: 40%;
+  }
+  span{
+      color: rgb(30, 243, 30);
+  }
+}
+  

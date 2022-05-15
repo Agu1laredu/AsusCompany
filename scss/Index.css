@@ -1,0 +1,25 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  margin: 4%;
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+.card button {
+  margin-left: 40%;
+}
+
+.card span {
+  color: #1ef31e;
+}
+/*# sourceMappingURL=Index.css.map */

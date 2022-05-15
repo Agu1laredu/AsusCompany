@@ -12,6 +12,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="scss/Index.css">
     <title>Document</title>
   </head>
   <body>
@@ -36,7 +37,9 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ASUS COMPANY</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              ASUS 
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -121,7 +124,7 @@
             </h5>
             <p class="card-text">
               $ 279.999 <br />
-              en 12x 39706 pesos con 19 centavos $ 39.706 19
+              en 12x 39706 pesos con 19 centavos $ 39.706 19 <span>sin interés</span>
             </p>
             <button type="button" class="btn btn-dark">COMPRAR</button>
           </div>
@@ -183,13 +186,16 @@
             </h5>
             <p class="card-text">
               $ 196.999 <br />
-              en 12x 16416 pesos con 58 centavos $ 16.416 58 sin interés
+              en 12x 16416 pesos con 58 centavos $ 16.416 58 <span>sin interés</span>
             </p>
             <button type="button" class="btn btn-dark">COMPRAR</button>
           </div>
         </div>
       </div>
     </div>
+
+
+    
 
     <!-- TANDA DOS -->
 
@@ -206,7 +212,7 @@
             </h5>
             <p class="card-text">
               $ 153.999<br />
-              en 12x 12833 pesos con 25 centavos $ 12.833 25 sin interés
+              en 12x 12833 pesos con 25 centavos $ 12.833 25 <span>sin interés</span>
             </p>
             <button type="button" class="btn btn-dark">COMPRAR</button>
           </div>
@@ -256,8 +262,8 @@
               W10 C
             </h5>
             <p class="card-text">
-              $ 204.245 25 5% OFF <br />
-              en 12x 17020 pesos con 44 centavos $ 17.020 44 sin interés
+              $ 204.245 25 <span>5% OFF</span> <br />
+              en 12x 17020 pesos con 44 centavos $ 17.020 44 <span>sin interés</span>
             </p>
             <button type="button" class="btn btn-dark">COMPRAR</button>
           </div>
@@ -265,40 +271,59 @@
       </div>
     </div>
 
-
     <!-- footer -->
     <footer>
-        <div class="container-fluid">
-            <div class="row bg-background-color p-3">
-                <div class="col-lg-4 col-sm-12">
-                    <h3 class="text-light"> Phone Up </h3>
-                    <a> <i class="fa-brands fa-instagram"></i> </a>
-                    <a><i class="fa-brands fa-facebook"></i> </a>
-                    <a><i class="fa-brands fa-twitter"></i> </a>
-                </div>
-                <div class="col-lg-4 col-sm-12 d-flex flex-column">
-                    <p class="text-light mb-2 margin-menu-text fs-2"> CONTACTOS</p>
-                    <ul class="list-unstyled">
-                        <li class="my-2">Email: <a class="text-decoration-none item-i" href="index.html"> Empresa@hotmail.com </a>
-                        </li>
-                        <li class="my-2"> Telefono: <a class="text-decoration-none item-i" href="pages/ofertas_page.html">  **********
-                            </a> </li>
-                        <li class="my-2">Chat soporte al cliente: <a class="text-decoration-none item-i" href="pages/contacto.html">   CHAT </a> </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <p class="text-light mb-2 fs-2"> Dirección </p>
-                    <p class="text-light fs-3"> Av. pelegrini, Santa Fe </p>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row bg-background-color p-3">
+          <div class="col-lg-4 col-sm-12">
+            <h3 class="text-light">Phone Up</h3>
+            <a> <i class="fa-brands fa-instagram"></i> </a>
+            <a><i class="fa-brands fa-facebook"></i> </a>
+            <a><i class="fa-brands fa-twitter"></i> </a>
+          </div>
+          <div class="col-lg-4 col-sm-12 d-flex flex-column">
+            <p class="text-light mb-2 margin-menu-text fs-2">CONTACTOS</p>
+            <ul class="list-unstyled">
+              <li class="my-2">
+                Email:
+                <a class="text-decoration-none item-i" href="index.html">
+                  Empresa@hotmail.com
+                </a>
+              </li>
+              <li class="my-2">
+                Telefono:
+                <a
+                  class="text-decoration-none item-i"
+                  href="pages/ofertas_page.html"
+                >
+                  **********
+                </a>
+              </li>
+              <li class="my-2">
+                Chat soporte al cliente:
+                <a
+                  class="text-decoration-none item-i"
+                  href="pages/contacto.html"
+                >
+                  CHAT
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <p class="text-light mb-2 fs-2">Dirección</p>
+            <p class="text-light fs-3">Av. pelegrini, Santa Fe</p>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-
-    <script src="https://kit.fontawesome.com/e8a81fcdb8.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e8a81fcdb8.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- JavaScript Bundle with Popper -->
-    
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
