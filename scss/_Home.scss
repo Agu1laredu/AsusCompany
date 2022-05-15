@@ -1,3 +1,9 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
 footer{
     background-color: black;
     color: white;
@@ -7,7 +13,10 @@ footer{
 
 
 // PRODUCTOS
-
+h2{
+  text-align: center;
+  font-size: 60px;
+}
 .card{
     margin: 4%;
     cursor: pointer;
