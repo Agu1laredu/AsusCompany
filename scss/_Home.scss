@@ -68,6 +68,64 @@ h5{
 
 
 
+.publicidad{
+    box-sizing: border-box;
+    display: grid;
+  grid-template-columns: repeat(4);
+  grid-template-rows: repeat(2, 300px);
+  gap: 10px;
+  grid-template-areas:
+  ". video  .  texto "
+}
+
+
+
+
+.publicidad{
+    margin-bottom: 5%;
+    background-color: black;
+    grid-area: texto;
+    border: 2px solid black;
+    height: 318px;
+    div{
+        width: 400px;
+        margin-left: 50%;
+        color: white;
+    }
+    .iframe{
+        grid-area: video;
+    }
+}
+
+
+
+#gamer{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 10%;
+
+    .card-body{
+        text-align: center;
+        button{
+            margin-left: 5%;
+        }
+        p{
+            span{
+                color: red;
+                font-size: 25px;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
 footer{
     width: 100%;
     background-image: url(/Imagenes/footer.jpg);

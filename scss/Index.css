@@ -61,6 +61,65 @@ h5 span {
   color: #1ef31e;
 }
 
+.publicidad {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ()[4];
+      grid-template-columns: repeat(4);
+  -ms-grid-rows: (300px)[2];
+      grid-template-rows: repeat(2, 300px);
+  gap: 10px;
+      grid-template-areas: ". video  .  texto ";
+}
+
+.publicidad {
+  margin-bottom: 5%;
+  background-color: black;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: texto;
+  border: 2px solid black;
+  height: 318px;
+}
+
+.publicidad div {
+  width: 400px;
+  margin-left: 50%;
+  color: white;
+}
+
+.publicidad .iframe {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: video;
+}
+
+#gamer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  margin-bottom: 10%;
+}
+
+#gamer .card-body {
+  text-align: center;
+}
+
+#gamer .card-body button {
+  margin-left: 5%;
+}
+
+#gamer .card-body p span {
+  color: red;
+  font-size: 25px;
+}
+
 footer {
   width: 100%;
   background-image: url(/Imagenes/footer.jpg);
