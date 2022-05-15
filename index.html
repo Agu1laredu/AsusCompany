@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- INICIO NAVBAR -->
+
+    <nav class="navbar bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ASUS COMPANY</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ASUS COMPANY</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mi Cuenta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END NAVBAR -->
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/courusel1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/courusel2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/courusel3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h1>NUESTROS PRODUCTOS</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="Imagenes/card1.jpg"
+            class="card-img-top"
+            alt="Asus Zenbook"
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus Zenbook <br />
+              Ux482 I5 16gb 512gb Ssd <br />
+              Mx450 Gamer
+            </h5>
+            <p class="card-text">
+              $ 279.999 <br />
+              en 12x 39706 pesos con 19 centavos $ 39.706 19
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="Imagenes/card2.jpg"
+            class="card-img-top"
+            alt="Asus ZenBook"
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus ZenBook <br />
+              UX425EA gris 14", Intel Core i5 <br />
+              1135G7 8GB de RAM 512GB SSD, <br />
+              Intel Iris Xe Graphics G7 80EUs <br />
+              1920x1080px Windows 10 Home
+            </h5>
+            <p class="card-text">
+              $169.789 <br />
+              en 12x 24077 pesos con 50 centavos $ 24.077 50
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Imagenes/card3.jpg" class="card-img-top" alt="Asus Core" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus Core I3 X515 <br />
+              11va 8gb 15.6 256gb Ssd <br />
+              Gamer
+            </h5>
+            <p class="card-text">
+              $ 84.999<br />
+              en 12x 12053 pesos con 57 centavos $ 12.053 57
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="Imagenes/card4.jpg"
+            class="card-img-top"
+            alt="Asus Intel "
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus Intel Core I7 <br />
+              15,6 12gb + 480 Gb Ssd <br />
+              Gamer S/i
+            </h5>
+            <p class="card-text">
+              $ 196.999 <br />
+              en 12x 16416 pesos con 58 centavos $ 16.416 58 sin interés
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TANDA DOS -->
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Imagenes/card5.jpg" class="card-img-top" alt="Asus Intel" />
+
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus Intel Core I5 <br />
+              15,6 12gb Ssd 240gb Gamer<br />
+              Cuotas
+            </h5>
+            <p class="card-text">
+              $ 153.999<br />
+              en 12x 12833 pesos con 25 centavos $ 12.833 25 sin interés
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Imagenes/card6.jpg" class="card-img-top" alt="Asus Tuf " />
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus Tuf Fx506 I5 <br />
+              16gb 512gb Ssd Rtx 3050 <br />
+              Gamer <br />
+            </h5>
+            <p class="card-text">
+              $223.999<br />
+              en 12x 31764 pesos con 92 centavos $ 31.764 92
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Imagenes/card7.jpg" class="card-img-top" alt="Asus Core" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus Core I7 20g<br />
+              15,6 960gb Ssd Windows 10 <br />
+              Gamer
+            </h5>
+            <p class="card-text">
+              $ 199.999<br />
+              en 12x 28361 pesos con 52 centavos $ 28.361 52
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Imagenes/card8.jpg" class="card-img-top" alt="Asus X515 " />
+          <div class="card-body">
+            <h5 class="card-title">
+              Notebook Asus X515 Core I7 <br />
+              1165g7 20gb 512gb 15.6 Fhd <br />
+              W10 C
+            </h5>
+            <p class="card-text">
+              $ 204.245 25 5% OFF <br />
+              en 12x 17020 pesos con 44 centavos $ 17.020 44 sin interés
+            </p>
+            <button type="button" class="btn btn-dark">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row bg-background-color p-3">
+                <div class="col-lg-4 col-sm-12">
+                    <h3 class="text-light"> Phone Up </h3>
+                    <a> <i class="fa-brands fa-instagram"></i> </a>
+                    <a><i class="fa-brands fa-facebook"></i> </a>
+                    <a><i class="fa-brands fa-twitter"></i> </a>
+                </div>
+                <div class="col-lg-4 col-sm-12 d-flex flex-column">
+                    <p class="text-light mb-2 margin-menu-text fs-2"> CONTACTOS</p>
+                    <ul class="list-unstyled">
+                        <li class="my-2">Email: <a class="text-decoration-none item-i" href="index.html"> Empresa@hotmail.com </a>
+                        </li>
+                        <li class="my-2"> Telefono: <a class="text-decoration-none item-i" href="pages/ofertas_page.html">  **********
+                            </a> </li>
+                        <li class="my-2">Chat soporte al cliente: <a class="text-decoration-none item-i" href="pages/contacto.html">   CHAT </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <p class="text-light mb-2 fs-2"> Dirección </p>
+                    <p class="text-light fs-3"> Av. pelegrini, Santa Fe </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/e8a81fcdb8.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
