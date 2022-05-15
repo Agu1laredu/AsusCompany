@@ -64,11 +64,34 @@ h5 span {
 .publicidad .card {
   background-color: black;
   color: white;
+  text-align: center;
+}
+
+.publicidad .card h5 {
+  font-size: 25px;
+  color: red;
+}
+
+.publicidad .card .card-text {
+  font-size: 15px;
+  width: 600px;
+  text-align: center;
+  margin: auto;
 }
 
 @media (max-width: 800px) {
   iframe {
     width: 380px;
+  }
+  #text {
+    width: 300px;
+  }
+  #carouselExampleControls {
+    width: 413px;
+  }
+  #carouselExampleControls .carousel-item {
+    width: 350px;
+    margin-top: 40%;
   }
 }
 
@@ -110,7 +133,7 @@ footer #contac {
   margin-left: -5%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   footer h3 {
     margin-left: -5%;
   }

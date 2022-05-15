@@ -65,20 +65,48 @@ h5{
 }
 
 
-
+// PUBLICIDAD 
 
 .publicidad{
     margin-top: 10%;
     .card{
         background-color: black;
         color: white;
+        text-align: center;
+        h5{
+            font-size: 25px;
+            color: red;
+        }
+
+        .card-text{
+            font-size: 15px;
+            width: 600px;
+            text-align: center;
+            margin: auto;
+        }
     }
+    
 }
 
 @media (max-width: 800px){
     iframe{
         width: 380px;
     }
+   
+    #text{
+        width: 300px;
+    }
+
+
+    #carouselExampleControls{
+        width: 413px;
+        .carousel-item{
+            width: 350px;
+            margin-top: 40%;
+        }
+    }
+
+
 }
 
 
@@ -129,7 +157,7 @@ footer{
   
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     footer{
        
      
