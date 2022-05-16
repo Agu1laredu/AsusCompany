@@ -116,9 +116,13 @@ h5{
     justify-content: center;
     justify-items: center;
     margin-bottom: 10%;
-
+    img{
+        width: 390px;
+        height: 390px;
+    }
     .card-body{
         text-align: center;
+        
         button{
             margin-left: 5%;
         }
@@ -128,7 +132,9 @@ h5{
                 font-size: 25px;
             }
         }
+       
     }
+   
     
 }
 
