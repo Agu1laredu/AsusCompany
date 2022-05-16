@@ -151,4 +151,11 @@ main .img-promo-info {
   width: 520px;
   height: 200px;
 }
+
+@media (max-width: 800px) {
+  main section img {
+    width: 410px;
+    height: 560px;
+  }
+}
 /*# sourceMappingURL=Index.css.map */
