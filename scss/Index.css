@@ -15,12 +15,6 @@ html {
   margin-left: 20%;
 }
 
-.carousel-item {
-  margin-left: 25%;
-  margin-top: 8%;
-  width: 700px;
-}
-
 h2 {
   margin-top: 10%;
   text-align: center;
@@ -42,8 +36,8 @@ h5 span {
 }
 
 .col .card {
-  margin-left: 28%;
-  width: 50%;
+  margin-left: 12%;
+  width: 80%;
   height: 100%;
   border-bottom: none;
   cursor: pointer;
@@ -162,6 +156,78 @@ main .img-promo-info {
   }
 }
 
+.shadow {
+  background-color: rgba(128, 128, 128, 0.581);
+  width: 800px;
+  margin: auto;
+}
+
+.shadow button {
+  margin: auto;
+}
+
+.propaganda {
+  margin-top: 10%;
+}
+
+.propaganda .cardd {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.propaganda .cardd h5 {
+  font-size: 25px;
+  color: #04ff00;
+}
+
+.propaganda .cardd .card-text {
+  font-size: 15px;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+.it {
+  margin-top: 10%;
+  height: 500px;
+  background-image: url(/Imagenes/cont.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.it h5 {
+  font-size: 25px;
+  color: #04ff00;
+}
+
+.it p {
+  color: white;
+  font-size: 25px;
+}
+
+.ot {
+  margin-top: 10%;
+  height: 500px;
+  background-image: url(/Imagenes/monitor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.ot h5 {
+  font-size: 25px;
+  color: #04ff00;
+}
+
+.ot p {
+  color: white;
+  font-size: 25px;
+}
+
 .asd {
   background-image: url(/Imagenes/back.jpg);
   background-repeat: no-repeat;
@@ -188,7 +254,7 @@ main .img-promo-info {
           box-shadow: 10px 10px 20px 20px rgba(234, 4, 246, 0.245);
 }
 
-.asd .credit-card_p:hover {
+.asd .creditp:hover {
   -webkit-transform: translateY(-10%);
           transform: translateY(-10%);
   color: #75005e;

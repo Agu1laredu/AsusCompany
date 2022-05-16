@@ -1,0 +1,71 @@
+.shadow{
+    background-color: rgba(128, 128, 128, 0.581);
+    width: 800px;
+    margin: auto;
+        button{
+            margin: auto;
+        }
+       
+}
+
+
+.propaganda{
+    margin-top: 10%;
+    .cardd{
+        background-color: black;
+        
+        color: white;
+        text-align: center;
+        h5{
+            font-size: 25px;
+            color: rgb(4, 255, 0);;
+        }
+
+        .card-text{
+            font-size: 15px;
+            width: 600px;
+            text-align: center;
+            margin: auto;
+        }
+        
+    }
+    
+}
+
+
+
+.it{
+    margin-top: 10%;
+    height: 500px;
+    background-image: url(/Imagenes/cont.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        h5{
+            font-size: 25px;
+            color: rgb(4, 255, 0);
+        }
+        p{
+            color: white;
+            font-size: 25px;
+        }
+}
+
+.ot{
+    margin-top: 10%;
+    height: 500px;
+    background-image: url(/Imagenes/monitor.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        h5{
+            font-size: 25px;
+            color: rgb(4, 255, 0);;
+        }
+        p{
+            color: white;
+            font-size: 25px;
+        }
+}
