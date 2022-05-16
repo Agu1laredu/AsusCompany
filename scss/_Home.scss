@@ -38,10 +38,13 @@ h5 {
 
   .card {
     margin-left: 12%;
-    width: 80%;
+    width: 87%;
     height: 100%;
     border-bottom: none;
     cursor: pointer;
+    img{
+        width: 100%;
+    }
 
     button {
       margin-left: 40%;
@@ -94,13 +97,13 @@ h5 {
 
 #gamer {
   display: flex;
-  justify-content: space-between;
   justify-items: center;
   margin-bottom: 10%;
 
  
   .card-body {
     text-align: center;
+    
 
     button {
       margin-left: 5%;

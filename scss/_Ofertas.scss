@@ -1,14 +1,23 @@
 main {
   section {
     img {
-      width: 1520px;
-      height: 560px;
+        max-height: 80vh;
+        width: 100%;
+
+     
     }
   }
   .img-promo-info {
     width: 520px;
     height: 200px;
   }
+}
+.card{
+    img{
+        width: 420px;
+        height: 400px;
+        margin: auto;
+    }
 }
 
 @media (max-width: 800px) {
@@ -20,6 +29,7 @@ main {
       }
     }
     .container {
+        
       width: 425px;
     }
   }
