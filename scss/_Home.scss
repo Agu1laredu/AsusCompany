@@ -67,7 +67,7 @@ h5 {
 
     .card-text {
       font-size: 15px;
-      width: 100%;
+      width: 600px;
       text-align: center;
       margin: auto;
     }
@@ -94,13 +94,11 @@ h5 {
 
 #gamer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   justify-items: center;
   margin-bottom: 10%;
-  img {
-    width: 390px;
-    height: 390px;
-  }
+
+ 
   .card-body {
     text-align: center;
 

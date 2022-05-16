@@ -72,7 +72,7 @@ h5 span {
 
 .publicidad .card .card-text {
   font-size: 15px;
-  width: 100%;
+  width: 600px;
   text-align: center;
   margin: auto;
 }
@@ -97,16 +97,11 @@ h5 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   justify-items: center;
   margin-bottom: 10%;
-}
-
-#gamer img {
-  width: 390px;
-  height: 390px;
 }
 
 #gamer .card-body {
