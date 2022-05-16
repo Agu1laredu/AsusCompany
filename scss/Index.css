@@ -161,4 +161,19 @@ main .img-promo-info {
     width: 425px;
   }
 }
+
+.asd {
+  background-image: url(/Imagenes/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.asd img {
+  margin-top: 10%;
+  width: 100px;
+  height: 100px;
+}
 /*# sourceMappingURL=Index.css.map */

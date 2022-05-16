@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&family=Koulen&family=League+Gothic&family=Neonderthaw&family=Ramaraja&family=Road+Rage&family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="scss/Index.css">
+    <title>Asus | Ofertas</title>
+  </head>
+ 
+    <!-- INICIO NAVBAR -->
+
+    <nav class="navbar bg-white  fixed-top" 
+      <div class="container-fluid">
+        <a class="navbar-brand" data-aos="flip-up" href="index.html"> <img id="logo" src="Imagenes/logo.jpg" alt="Asus Company"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              ASUS 
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cuenta.html">Mi Cuenta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- END NAVBAR -->
+
+
+
+
+    <main>
+        <section>
+            <div class="container my-2">
+                <div class="row  asd">
+                    <!-- row -->
+                    <h1 class="text-center fs-2"> Mi cuenta </h1>
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <!-- col -->
+                        <div class="introduction-info">
+                            <img class="profile-picture" src="Imagenes/avatar.jpg" alt="profile picture">
+                            <div class="d-flex flex-column">
+                                <p> Hola, <span class="fs-4"> usuario! </span> </p>
+                            </div>
+                        </div>
+
+                        <div class="personal-info-container">
+                            <p class="fs-3 text-center"> Datos personales </p>
+                            <p> Nombre: nombre </p>
+                            <p> Apellido: apellido </p>
+                            <p> Documento: id </p>
+                            <p> Teléfono: telefono </p>
+                            <p> E-mail: email </p>
+                            <p> Direccion: direccion </p>
+                        </div>
+
+                        <section>
+                            <p class="fs-3 text-center"> Medios de pago </p>
+
+                            <div class="payment-method-container mb-5">
+                                <div class="credit-card">
+                                    <!-- card -->
+                                    <div class="credit-card_image">
+                                        <img class="payment-method-image" src="Imagenes/metodo.jpg"
+                                            alt="credit card image">
+                                    </div>
+                                    <div class="credit-card_p">
+                                        <p> Tarjeta Terminada en 7974 </p>
+                                        <p> Tarjeta Visa </p>
+                                        <p> Vencimiento 02/25 </p>
+                                    </div>
+                                </div> <!-- card -->
+
+                                <div class="credit-card add-credit-card">
+                                    <!-- card -->
+                                    <div class="credit-card_image">
+                                        <i class='bx bx-plus-circle bx-lg payment-method-i'></i>
+                                    </div>
+                                    <div class="credit-card_p">
+                                        <b class="add-credit-card_p"> Agregar nueva tarjeta </b>
+                                    </div>
+                                </div> <!-- card -->
+                            </div>
+                        </section>
+
+                    </div> <!-- col -->
+
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <!-- col -->
+                        <section>
+                            <p class="fs-2 text-center"> Historial de compras </p>
+
+                            <div class="shopping-history-card-container">
+
+                                <div class="shopping-history-card my-2">
+                                    <!-- card -->
+                                    <div class="shopping-history-card__header mt-1">
+                                        <b> 2 de Febrero </b>
+                                        <a class="repurchase" href="#"> Volver a comprar </a>
+                                    </div>
+                                    <div class="shopping-history-card__body">
+                                        <img class="shopping-history-card__img" src="Imagenes/oferta3.jpg"
+                                            alt="iPhone 11">
+                                        <div class="shopping-history-card__p">
+                                            <b class="delivered"> Entregado </b>
+                                            <p class="fs-3"> Monitor gamer Asus MB16AC led
+                                              15.6 gris 100V/240V </p>
+                                            <p class="delivery-date"> Llegó el 3 de febrero </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+
+                                <div class="shopping-history-card my-2">
+                                    <!-- card -->
+                                    <div class="shopping-history-card__header mt-1">
+                                        <b> 22 de Diciembre </b>
+                                        <a class="repurchase" href="#"> Volver a comprar </a>
+                                    </div>
+                                    <div class="shopping-history-card__body">
+                                        <img class="shopping-history-card__img"
+                                            src="Imagenes/oferta6.jpg" alt="samsung-a72">
+                                        <div class="shopping-history-card__p">
+                                            <b class="delivered"> Entregado </b>
+                                            <p class="fs-3"> Auricular Gamer Asus Rog
+                                              Strix Go Wireless Electro
+                                              Punk Ps5 </p>
+                                            <p class="delivery-date"> Llegó el 22 de diciembre </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+
+                                <div class="shopping-history-card my-2">
+                                    <!-- card -->
+                                    <div class="shopping-history-card__header mt-1">
+                                        <b> 24 de Abril </b>
+                                        <a class="repurchase" href="#"> Volver a comprar </a>
+                                    </div>
+                                    <div class="shopping-history-card__body">
+                                        <img class="shopping-history-card__img" src="Imagenes/oferta2.jpg"
+                                            alt="Motorola moto edge">
+                                        <div class="shopping-history-card__p">
+                                            <b class="delivered"> Entregado </b>
+                                            <p class="fs-3"> Monitor Portatil Asus
+                                              Zenscreen Mb16amt 15.6
+                                              Usb-c Y Bateria </p>
+                                            <p class="delivery-date"> Llegó el 26 de abril </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+
+                            </div>
+                        </section>
+
+                    </div> <!-- col -->
+                </div> <!-- row -->
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- footer -->
+    <footer data-aos="zoom-in-up" style="margin-top: 10%;">
+        <div class="container-fluid">
+          <div class="row bg-background-color p-3">
+            <div class="col-lg-4 col-sm-12">
+              <h3 class="text-light">REDES</h3>
+              <a> <i class="fa-brands fa-instagram"></i> </a>
+              <a><i class="fa-brands fa-facebook"></i> </a>
+              <a><i class="fa-brands fa-twitter"></i> </a>
+            </div>
+            <div id="contac" class="col-lg-4 col-sm-12 d-flex flex-column">
+              <p class="text-light mb-2 margin-menu-text fs-2">CONTACTOS</p>
+              <ul class="list-unstyled">
+                <li class="my-2">
+                  Email:
+                  <a class="text-decoration-none item-i" href="index.html">
+                    Empresa@hotmail.com
+                  </a>
+                </li>
+                <li class="my-2">
+                  Telefono:
+                  <a
+                    class="text-decoration-none item-i"
+                    href="pages/ofertas_page.html"
+                  >
+                    **********
+                  </a>
+                </li>
+                <li class="my-2">
+                  Chat soporte al cliente:
+                  <a
+                    class="text-decoration-none item-i"
+                    href="pages/contacto.html"
+                  >
+                    CHAT
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 C">
+              <p class="text-light mb-2 fs-2">Dirección</p>
+              <p class="text-light fs-3">Av. pelegrini, Santa Fe</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script
+        src="https://kit.fontawesome.com/e8a81fcdb8.js"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  
+      <!-- JavaScript Bundle with Popper -->
+      
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
+  l>
