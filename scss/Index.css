@@ -35,27 +35,31 @@ h5 span {
   font-size: 40px;
 }
 
-.col {
+.row {
+  margin: auto;
+}
+
+.row .col {
   margin-top: 10%;
 }
 
-.col .card {
-  margin-left: 12%;
+.row .col .card {
+  margin-left: 7%;
   width: 87%;
   height: 100%;
   border-bottom: none;
   cursor: pointer;
 }
 
-.col .card img {
+.row .col .card img {
   width: 100%;
 }
 
-.col .card button {
+.row .col .card button {
   margin-left: 40%;
 }
 
-.col .card span {
+.row .col .card span {
   color: #1ef31e;
 }
 
