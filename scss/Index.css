@@ -141,4 +141,14 @@ footer #contac {
     margin-left: -5%;
   }
 }
+
+main section img {
+  width: 1520px;
+  height: 560px;
+}
+
+main .img-promo-info {
+  width: 520px;
+  height: 200px;
+}
 /*# sourceMappingURL=Index.css.map */
