@@ -1,175 +1,139 @@
-
-  
 * {
-    font-family: 'Bebas Neue', cursive;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  html {
-    height: 100%;
-  }
-  
-
-
-#logo{
-    height: 80px;
-    margin-left: 20%;
+  font-family: "Bebas Neue", cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+html {
+  height: 100%;
+}
 
-
-
-
-
+#logo {
+  height: 80px;
+  margin-left: 20%;
+}
 
 // PRODUCTOS
-h2{
-    margin-top: 10%;
+h2 {
+  margin-top: 10%;
   text-align: center;
   font-size: 60px;
 }
 
-h5{
-    margin-bottom: 10%;
-    text-align: center;
-    span {
-         color: rgb(30, 243, 30);
-        font-size:40px;
-    }
+h5 {
+  margin-bottom: 10%;
+  text-align: center;
+  span {
+    color: rgb(30, 243, 30);
+    font-size: 40px;
+  }
 }
 
-.col{
-    margin-top: 10%;
+.col {
+  margin-top: 10%;
 
-.card{
-    
+  .card {
     margin-left: 12%;
     width: 80%;
     height: 100%;
     border-bottom: none;
     cursor: pointer;
-    
-  button{
+
+    button {
       margin-left: 40%;
-  }
-  span{
+    }
+    span {
       color: rgb(30, 243, 30);
+    }
   }
 }
+
+// PUBLICIDAD
+
+.publicidad {
+  margin-top: 10%;
+  .card {
+    background-color: black;
+    color: white;
+    text-align: center;
+    h5 {
+      font-size: 25px;
+      color: red;
+    }
+
+    .card-text {
+      font-size: 15px;
+      width: 600px;
+      text-align: center;
+      margin: auto;
+    }
+  }
 }
 
+@media (max-width: 800px) {
+  iframe {
+    width: 380px;
+  }
 
-// PUBLICIDAD 
+  #text {
+    width: 300px;
+  }
 
-.publicidad{
-    margin-top: 10%;
-    .card{
-        background-color: black;
-        color: white;
-        text-align: center;
-        h5{
-            font-size: 25px;
-            color: red;
-        }
-
-        .card-text{
-            font-size: 15px;
-            width: 600px;
-            text-align: center;
-            margin: auto;
-        }
+  #carouselExampleControls {
+    width: 413px;
+    .carousel-item {
+      width: 400px;
+      margin-top: 40%;
     }
-    
+  }
 }
 
-@media (max-width: 800px){
-    iframe{
-        width: 380px;
+#gamer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 10%;
+  img {
+    width: 390px;
+    height: 390px;
+  }
+  .card-body {
+    text-align: center;
+
+    button {
+      margin-left: 5%;
     }
-   
-    #text{
-        width: 300px;
+    p {
+      span {
+        color: red;
+        font-size: 25px;
+      }
     }
-
-
-    #carouselExampleControls{
-        width: 413px;
-        .carousel-item{
-            width: 400px;
-            margin-top: 40%;
-            
-        }
-    }
-
-
+  }
 }
 
-
-
-
-
-
-#gamer{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-bottom: 10%;
-    img{
-        width: 390px;
-        height: 390px;
-    }
-    .card-body{
-        text-align: center;
-        
-        button{
-            margin-left: 5%;
-        }
-        p{
-            span{
-                color: red;
-                font-size: 25px;
-            }
-        }
-       
-    }
-   
-    
-}
-
-
-
-
-
-
-
-footer{
-    width: 100%;
-    background-image: url(/Imagenes/footer.jpg);
-    background-repeat: no-repeat;
+footer {
+  width: 100%;
+  background-image: url(/Imagenes/footer.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-    color: white;
+  color: white;
 
-    
-   #contac {
-       margin-left: -5%;
-   }
-  
+  #contac {
+    margin-left: -5%;
+  }
 }
 
 @media (max-width: 700px) {
-    footer{
-       
-     
-      h3{
-        margin-left: -5%;
-      }
-      .C{
-          margin-left: -5%;
-      }
+  footer {
+    h3 {
+      margin-left: -5%;
     }
+    .C {
+      margin-left: -5%;
+    }
+  }
 }
-  

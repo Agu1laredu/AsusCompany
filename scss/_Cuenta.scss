@@ -1,31 +1,31 @@
-.asd{
-    background-image: url(/Imagenes/back.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+.asd {
+  background-image: url(/Imagenes/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  img {
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+  }
+  .credit-card_p,
+  .personal-info-container,
+  .fs-3 {
+    background-color: rgba(255, 255, 255, 0.462);
     color: white;
-    img{
-        margin-top: 10%;
-        width: 100px;
-        height: 100px;
+    width: 300px;
+    margin-top: 4%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 20px rgba(234, 4, 246, 0.245);
+  }
+  .creditp {
+    &:hover {
+      transform: translateY(-10%);
+      color: rgb(117, 0, 94);
+      cursor: pointer;
     }
-    .credit-card_p, .personal-info-container, .fs-3{
-        background-color: rgba(255, 255, 255, 0.462);
-        color: white;
-        width: 300px;
-        margin-top: 4%;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: 10px 10px 20px 20px rgba(234, 4, 246, 0.245);
-    }
-    .creditp{
-          
-        &:hover {
-            transform: translateY(-10%);
-            color: rgb(117, 0, 94);
-            cursor: pointer;
-          }
-    }
-   
+  }
 }

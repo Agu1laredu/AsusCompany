@@ -1,5 +1,5 @@
 * {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -248,7 +248,9 @@ main .img-promo-info {
   height: 100px;
 }
 
-.asd .credit-card_p, .asd .personal-info-container, .asd .fs-3 {
+.asd .credit-card_p,
+.asd .personal-info-container,
+.asd .fs-3 {
   background-color: rgba(255, 255, 255, 0.462);
   color: white;
   width: 300px;
