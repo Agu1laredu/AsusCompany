@@ -10,9 +10,15 @@ html {
 }
 
 body{
-  background: #F1F1F1;
+  background: white;
   &.dark{
     background: #000;
+    h1{
+      color: white;
+    }
+    h5{
+        color: white;
+    }
   }
 }
 
