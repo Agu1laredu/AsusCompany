@@ -16,8 +16,8 @@ let dataRead = function () {
     email: document.querySelector("#email").value,
     pass: document.querySelector("#pass").value,
   };
-  JSON.stringify(myObject);
-  localStorage.setItem("miInfo", "myObject");
+  let storage = JSON.stringify(myObject);
+  localStorage.setItem("miInfo", storage);
   console.log(myObject)
 
 };
