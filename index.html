@@ -10,27 +10,25 @@
   </head>
   <body>
     <main>
-      <form id="form" action="active" method="GET">
+      <form id="form" action="active" >
         <h1>LOGIN</h1>
         <div id="error"></div>
         <div class="mitad">
-          <input type="text" id="nombre" placeholder="Nombre" required />
-          <input type="text" id="apellido" placeholder="Apellido" />
+          <input type="text" id="nombre" placeholder="Usuarionuevo" required/>
+          <input type="text" id="apellido" placeholder="Apellido" required />
         </div>
         <div class="completo">
-          <input type="email" id="email" placeholder="Email" />
+          <input type="email" id="email" name="email" placeholder="Email" />
         </div>
         <div class="completo">
           <input type="password" id="pass" placeholder="Password" />
         </div>
         <div class="myButton">
-          <input id="registro" type="button" value="Registro"/>
+          <input id="registro" type="button" value="Enviar" onclick="return enviarFormulario()" />
         </div>
+        <div id="error"></div>
       </form>
     </main>
-
-
-
     <script src="program.js"></script>
   </body>
 </html>
