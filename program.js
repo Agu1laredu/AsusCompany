@@ -16,6 +16,9 @@ let dataRead = function () {
     email: document.querySelector("#email").value,
     pass: document.querySelector("#pass").value,
   };
+  
+  //GUARDAMOS EL LOS DATOS DEL LOGIN TRANSFORMADOS EN JSON EN EL LOCALESTORAGE
+
   let storage = JSON.stringify(myObject);
   localStorage.setItem("miInfo", storage);
   console.log(myObject)
@@ -23,9 +26,9 @@ let dataRead = function () {
 };
 main();
 
-document.querySelector("#registro").addEventListener("click", () => {
-  window.location.href = "inicio.html";
-});
+// document.querySelector("#registro").addEventListener("click", () => {
+//   window.location.href = "inicio.html";
+// });
 
 
 // let Entrar = function () { document.querySelector("#registro").addEventListener("click", () => {
