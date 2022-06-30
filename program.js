@@ -17,16 +17,15 @@ let dataRead = function () {
     pass: document.querySelector("#pass").value,
   };
   JSON.stringify(myObject);
+  localStorage.setItem("miInfo", "myObject");
   console.log(myObject)
 
 };
 main();
 
-
-
-// document.querySelector("#registro").addEventListener("click", () => {
-//   window.location.href = "inicio.html";
-// });
+document.querySelector("#registro").addEventListener("click", () => {
+  window.location.href = "inicio.html";
+});
 
 
 // let Entrar = function () { document.querySelector("#registro").addEventListener("click", () => {
