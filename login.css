@@ -10,8 +10,15 @@ body {
   place-items: center;
   height: 100vh;
 }
-
+#logo{
+  height: 300px;
+  
+}
 main {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-top: -10%;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
