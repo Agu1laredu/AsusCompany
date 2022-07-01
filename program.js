@@ -24,22 +24,25 @@ let dataRead = function () {
   console.log(myObject)
 
 };
+
+
+document.querySelector("#registro").addEventListener("click", () => {
+
+  if (
+
+    document.getElementById("nombre").value.length == 0 ||
+
+    document.getElementById("apellido").value.length == 0
+
+  ) {
+
+    document.getElementById("mensaje").innerHTML = "Debe completar los campos requeridos";
+
+  } else {
+
+    window.location.href = "inicio.html";
+
+  }
+
+});
 main();
-
-// document.querySelector("#registro").addEventListener("click", () => {
-//   window.location.href = "inicio.html";
-// });
-
-
-// let Entrar = function () { document.querySelector("#registro").addEventListener("click", () => {
-//   window.location.href = "inicio.html";
-// });} 
-
-// function VerificarIngreso() {
-//   if (document.getElementById("nombre").value ) {
-//    return (Entrar)
-//   } else {
-//     document.getElementById("mensaje").innerHTML =
-//       "Debe completar los campos requeridos";
-//   }
-// }

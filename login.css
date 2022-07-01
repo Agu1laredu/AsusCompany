@@ -57,6 +57,16 @@ input {
   background-color: #e7e6e6;
   border-radius: 5px;
 }
+button{
+  background-color: #a5a0a0;
+  border: 0px;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+  
+}
 
 input[type="button"] {
   background-color: #a5a0a0;
@@ -67,11 +77,18 @@ input[type="button"] {
   font-size: 15px;
   margin-top: 15px;
 }
-input[type="button"]:hover {
+button:hover {
   cursor: pointer;
   background-color: black;
 }
 .myButton {
   display: flex;
   justify-content: center;
+}
+
+
+#mensaje {
+  font-size: 20px;
+  margin: 2%;
+  text-align: center;
 }
