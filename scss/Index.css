@@ -296,7 +296,7 @@ main .img-promo-info {
 .it {
   margin-top: 10%;
   height: 500px;
-  background-image: url(/Imagenes/cont.jpg);
+  background-image: url(/Imagenes/cont.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -316,7 +316,7 @@ main .img-promo-info {
 .ot {
   margin-top: 10%;
   height: 500px;
-  background-image: url(/Imagenes/monitor.jpg);
+  background-image: url(/Imagenes/monitor.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -334,12 +334,8 @@ main .img-promo-info {
 }
 
 .asd {
-  background-image: url(/Imagenes/back.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  color: white;
+  background-color: #000000;
+  color: #fbf9f9;
 }
 
 .asd img {
@@ -352,7 +348,7 @@ main .img-promo-info {
 .asd .personal-info-container,
 .asd .fs-3 {
   background-color: rgba(255, 255, 255, 0.462);
-  color: white;
+  color: #fbf9f9;
   width: 300px;
   margin-top: 4%;
   text-align: center;
