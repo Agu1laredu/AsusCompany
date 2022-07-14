@@ -12,6 +12,7 @@ function cargarRegistro(){
             <td>${registro.tipodecompra}</td>
             <td>${registro.estadodelenvio}</td>
             `;
+            tabla.appendChild(row);
         });
       }) // acá mostramos la información 
 }
