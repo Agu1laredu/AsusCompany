@@ -1,4 +1,4 @@
-const tabla = document.querySelector(`#lista-compras tbody`);
+const tabla = document.querySelector(`#lista `);
 
 function cargarRegistro(){
     fetch(`registrocompras.json`)

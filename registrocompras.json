@@ -1,7 +1,7 @@
 [
-    {"producto": "computadora asus" , "monto": "5000", "tipodecompra": "estandar" , "estadodelenvio": "entregado" },
-    {"producto": "computadora asus" , "monto": "5000", "tipodecompra": "estandar" , "estadodelenvio": "entregado" },
-    {"producto": "computadora asus" , "monto": "5000", "tipodecompra": "estandar" , "estadodelenvio": "entregado" },
-    {"producto": "computadora asus" , "monto": "5000", "tipodecompra": "estandar" , "estadodelenvio": "entregado" },
-    {"producto": "computadora asus" , "monto": "5000", "tipodecompra": "estandar" , "estadodelenvio": "su paquete llega mañana" }
+    {"producto": "Placa de video Nvidia Asus Dual " , "monto": "$ 52.999 ", "tipodecompra": "ESTANDAR" , "estadodelenvio": "SU ENVIO LLEGARA PRONTO" },
+    {"producto": "Monitor Portatil Asus " , "monto": "$ 230.359 ", "tipodecompra": "ESTANDAR" , "estadodelenvio": "ENTREGADO" },
+    {"producto": "Notebook Asus Zenbook" , "monto": "$ 279.999", "tipodecompra": "ESTANDAR" , "estadodelenvio": "ENTREGADO" },
+    {"producto": "Monitor gamer Asus MB16AC led" , "monto": "$ 154.999", "tipodecompra": "PREMIUM" , "estadodelenvio": "ENTREGADO" },
+    {"producto": "Monitor gamer curvo Asus TUF" , "monto": "$ 90.859", "tipodecompra": "PREMIUM" , "estadodelenvio": "ENTREGADO" }
 ]
