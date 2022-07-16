@@ -301,4 +301,10 @@ main .img-promo-info {
   color: #75005e;
   cursor: pointer;
 }
+
+.coll {
+  margin-bottom: 8%;
+  border: 1px solid rgba(0, 0, 0, 0.352);
+  padding: 2%;
+}
 /*# sourceMappingURL=Index.css.map */
