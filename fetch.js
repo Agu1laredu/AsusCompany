@@ -7,10 +7,10 @@ function cargarRegistro(){
         registro.forEach(registro => {
             const row = document.createElement(`tr`);
             row.innerHTML += `
-            <td>${registro.producto}</td>
-            <td>${registro.monto}</td>
-            <td>${registro.tipodecompra}</td>
-            <td>${registro.estadodelenvio}</td>
+            <td class="td">${registro.producto}</td>
+            <td class="td">${registro.monto}</td>
+            <td class="td">${registro.tipodecompra}</td>
+            <td class="td">${registro.estadodelenvio}</td>
             `;
             tabla.appendChild(row);
         });
