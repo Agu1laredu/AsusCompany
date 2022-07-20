@@ -1,0 +1,66 @@
+[
+    {
+        "precio": "154.999 30% OFF",
+        "id": 1,
+        "title": "Placa de video Nvidia Asus Dual GeForce GTX 16 Series GTX 1650 DUAL-GTX1650-O4G OC Edition 4GB",
+        "img": "Imagenes/oferta1.webp"
+    },
+    {
+        "precio": "196.999 30% OFF",
+        "id": 2,
+        "title": "Monitor Portatil Asus Zenscreen Mb16amt 15.6 Usb-c Y Bateria",
+        "img": "Imagenes/oferta2.webp"
+    },
+    {
+        "precio": "90.859 30% OFF ",
+        "id": 3,
+        "title": "Monitor gamer Asus MB16AC led 15.6 gris 100V/240V",
+        "img": "Imagenes/oferta3.webp"
+    },
+    {
+        "precio": "196.999 30% OFF",
+        "id": 4,
+        "title": "Notebook Asus Intel Core I7 15,6 12gb + 480 Gb Ssd Gamer S/i",
+        "img": "Imagenes/oferta4.webp"
+    },
+    {
+        "precio": "90.859 30% OFF",
+        "id": 5,
+        "title": "Monitor gamer curvo Asus TUF Gaming VG27WQ1B led 27  negro  100V/240V",
+        "img": "Imagenes/ofertas5.webp"
+    },
+    {
+        "precio": "67.829 30% OFF",
+        "id": 6,
+        "title": "Auricular Gamer Asus Rog Strix Go Wireless Electro Punk Ps5",
+        "img": "Imagenes/oferta6.webp"
+    },
+
+    {
+        "precio": " 279.999",
+        "id": 6,
+        "title": "Notebook Asus Zenbook Ux482 I5 16gb 512gb Ssd Mx450 Gamer",
+        "img": "Imagenes/card1.webp"
+    },
+
+    {
+        "precio": "169.789 ",
+        "id": 6,
+        "title": "Notebook Asus ZenBook UX425EA gris 14 - Intel Core i5 1135G7 8GB de RAM 512GB SSD-Intel Iris Xe Graphics G7 80EUs 1920x1080px Windows 10 Home",
+        "img": "Imagenes/card2.webp"
+    },
+
+    {
+        "precio": "84.999",
+        "id": 6,
+        "title": "Notebook Asus Core I3 X515 11va 8gb 15.6 256gb Ssd Gamer",
+        "img": "Imagenes/card3.webp"
+    },
+
+    {
+        "precio": "196.999 30% OFF",
+        "id": 6,
+        "title": "Notebook Asus Intel Core I7 15,6 12gb + 480 Gb Ssd Gamer S/i",
+        "img": "Imagenes/card4.webp"
+    }
+]
