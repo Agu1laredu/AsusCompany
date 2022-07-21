@@ -34,8 +34,8 @@ document.querySelector("#registro").addEventListener("click", () => {
     btn.addEventListener("click", () => {
       Swal.fire({
         icon: "error",
-        title: "Incomplete first and last name",
-        text: "You must complete the required fields",
+        title: "COMPLETE SU NOMBRE Y APELLIDO",
+        text: "complete los campos requeridos",
       });
     });
      // LIBRERIA FIN
