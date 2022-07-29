@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     fetchData()
+    if (localStorage.getItem('carrito')) {
+        carrito = JSON.parse(localStorage.getItem('carrito'))
+        pintarCarrito()
+    }
+
 })
 
 const fetchData = async () => {
@@ -30,17 +35,12 @@ const pintarProductos = (data) => {
         fragment.appendChild(clone)
     })
     contendorProductos.appendChild(fragment)
-    localStorage.setItem('contendorProductos', JSON.stringify(contendorProductos));
+    
     
 }
 let carrito = {}
 
-document.addEventListener('DOMContentLoeaded' , () => {
-    if(localStorage.getItem('carrito')) {
-        carrito = JSON.parse(localStorage.getItem('carrito'))
-        contendorProductos()
-    }
-})
+
 
 
 const detectarBotones = (data) => {
@@ -55,7 +55,7 @@ const detectarBotones = (data) => {
                 producto.cantidad = carrito[producto.id].cantidad + 1
             }
             carrito[producto.id] = { ...producto }
-            // console.log('carrito', carrito)
+            console.log('carrito', carrito)
             pintarCarrito()
         })
     })
@@ -86,13 +86,15 @@ const pintarCarrito = () => {
 
         const clone = template.cloneNode(true)
         fragment.appendChild(clone)
-        
+        localStorage.setItem('carrito' , JSON.stringify(carrito))
     })
 
     items.appendChild(fragment)
 
     pintarFooter()
-    accionBotones()
+    localStorage.setItem('carrito', JSON.stringify(carrito))
+
+    
 
 }
 const footer = document.querySelector('#footer-carrito')
@@ -128,6 +130,7 @@ const pintarFooter = () => {
     boton.addEventListener('click', () => {
         carrito = {}
         pintarCarrito()
+        localStorage.setItem('pintarCarrito', JSON.stringify(carrito))
     })
 
 }
