@@ -12,7 +12,8 @@ const fetchData = async () => {
     } catch (error) {
         console.log(error)
     }
-}
+};
+
 
 const contendorProductos = document.querySelector('#contenedor-productos')
 const pintarProductos = (data) => {
@@ -29,9 +30,18 @@ const pintarProductos = (data) => {
         fragment.appendChild(clone)
     })
     contendorProductos.appendChild(fragment)
+    localStorage.setItem('contendorProductos', JSON.stringify(contendorProductos));
+    
 }
-
 let carrito = {}
+
+document.addEventListener('DOMContentLoeaded' , () => {
+    if(localStorage.getItem('carrito')) {
+        carrito = JSON.parse(localStorage.getItem('carrito'))
+        contendorProductos()
+    }
+})
+
 
 const detectarBotones = (data) => {
     const botones = document.querySelectorAll('.card button')
@@ -50,6 +60,8 @@ const detectarBotones = (data) => {
         })
     })
 }
+
+
 
 const items = document.querySelector('#items')
 
@@ -74,6 +86,7 @@ const pintarCarrito = () => {
 
         const clone = template.cloneNode(true)
         fragment.appendChild(clone)
+        
     })
 
     items.appendChild(fragment)
@@ -82,7 +95,6 @@ const pintarCarrito = () => {
     accionBotones()
 
 }
-
 const footer = document.querySelector('#footer-carrito')
 const pintarFooter = () => {
 
@@ -150,4 +162,5 @@ const accionBotones = () => {
         })
     })
 }
+
 
