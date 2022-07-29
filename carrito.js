@@ -92,6 +92,7 @@ const pintarCarrito = () => {
     items.appendChild(fragment)
 
     pintarFooter()
+    accionBotones()
     localStorage.setItem('carrito', JSON.stringify(carrito))
 
     
